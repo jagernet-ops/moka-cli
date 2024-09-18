@@ -1,33 +1,28 @@
 {
-  "name": "@sweet-js/cli",
-  "description": "Hygienic Macros for JavaScript",
+  "name": "@dairyland/moka-cli",
+  "description": "Macros Simplified",
   "bin": {
-    "sjs": "bin/sjs.js"
+    "moka": "bin/index.js"
   },
-  "version": "3.0.13",
-  "engines": {
-    "node": ">=7.0.0"
-  },
-  "author": "Tim Disney",
+  "version": "0.0.1",
+  "author": "Michael Shalewski",
   "licenses": [
     {
       "type": "BSD",
-      "url": "http://github.com/sweet-js/sweet-cli/master/LICENSE.BSD"
+      "url": "http://github.com/jagernet-ops/moka-cli/blob/master/LICENSE.BSD"
     }
   ],
-  "dependencies": {
-    "@sweet-js/core": "3.0.13",
-    "semver": "^5.3.0",
-    "yargs": "^4.3.2"
+  "scripts": {
+    "build": "deno src/scripts/build.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sweet-js/sweet-cli.git"
+    "url": "git://github.com/jagernet-ops/moka-cli.git"
   },
   "keywords": [
     "macros",
     "javascript",
-    "parser"
+    "deno"
   ],
   "license": "BSD-2-Clause"
 }
